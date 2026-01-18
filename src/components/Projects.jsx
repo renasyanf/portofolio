@@ -3,6 +3,10 @@ import './Projects.css'
 import netflixImage from '../assets/netflix.jpg'
 import quranImage from '../assets/quran.jpg'
 import fixmobImage from '../assets/fixmob.jpg'
+import sosmedImage from '../assets/sosmed.jpg'
+import FloImage from '../assets/flo.jpg'
+import MoodieImage from '../assets/moodie.png'
+import PortoImage from '../assets/porto.jpg'
 
 
 const Projects = () => {
@@ -44,19 +48,51 @@ const Projects = () => {
       title: 'Florist Web',
       description: 'A florist web platform for online flower orders, custom bouquets, and seamless checkout.',
       tech: ['JavaScript', 'API', 'CSS', 'MySQL'],
-      image: '',
+      image: '🌸',
+      imageType: 'emoji',
       link: '#',
       github: 'https://github.com/renasyanf/webflorist.git'
     },
-    
     {
       id: 5,
+      title: 'Social Media Campaign Design',
+      description: 'Creative social media campaigns with engaging visuals, content strategies, and brand storytelling for various clients across Instagram, Facebook, and TikTok platforms.',
+      tech: ['Content Creation', 'Graphic Design', 'Social Strategy', 'Analytics'],
+      image: sosmedImage,
+      imageType: 'image',
+      link: 'https://www.instagram.com/seikat.kembang?igsh=ODBpb3hjcGZsdGNx',
+      github: '#'
+    },
+  
+    {
+      id: 6,
+      title: 'Custom Flower Arrangements',
+      description: 'Beautiful custom flower arrangements and bouquets for special occasions including weddings, anniversaries, corporate events, and personal celebrations. Specializing in fresh flower arrangements, with beautiful options in artificial, dried, and preserved flowers.',
+      tech: ['Floral Design', 'Event Planning', 'Color Theory', 'Creative Design'],
+      image: FloImage,
+      imageType: 'image',
+      link: '#',
+      github: '#'
+    },
+    {
+      id: 8,
+      title: 'Moodie App',
+      description: 'Mobile application reminder app that helps you take care of your health, lifestyle, and personal routines—based on your mood. With gentle reminders and a clean design, Moodie supports your daily habits, from self-care and hydration to personal schedules, without feeling overwhelming.',
+      tech: ['Flutter', 'Dart', 'Firebase', 'Android'],
+      image: MoodieImage,
+      imageType: 'image',
+      link: '#',
+      github: '#'
+    },
+    {
+      id: 9,
       title: 'Portfolio Website',
       description: 'Creative portfolio website with smooth animations and modern design patterns.',
       tech: ['React', 'CSS', 'Animation', 'Responsive'],
-      image: '💼',
-      link: '#',
-      github: '#'
+      image: PortoImage,
+      imageType: 'image',
+      link: 'https://renasya-portfolio.vercel.app',
+      github: 'https://github.com/renasyanf/portofolio.git'
     }
   ]
 
